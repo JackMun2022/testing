@@ -1,15 +1,15 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: aqua
+  name: aquatest
   labels:
-    name: aqua
+    name: aquatest
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: aqua
+  namespace: aquatest
   labels:
     app: nginx
 spec:
