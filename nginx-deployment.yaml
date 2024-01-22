@@ -1,10 +1,10 @@
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: aquatest
-  labels:
-    name: aquatest
----
+#kind: Namespace
+#apiVersion: v1
+#metadata:
+#  name: aquatest
+#  labels:
+#    name: aquatest
+#---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
